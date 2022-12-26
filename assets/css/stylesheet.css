@@ -1,0 +1,107 @@
+/* Import fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display:wght@400;500&display=swap');
+
+/* Default overwrite */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cormorant Garmamond', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #121212;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', sans-serif;
+    font-weight: 300;
+    color: #770C57;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+/* nav */
+
+.nav {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav li {
+    align-self: center;
+    padding: 10px 15px;
+  }
+
+  .nav a {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
+  }
+
+  .nav img {
+    height: 4em;
+    width: auto;
+  }
+
+  .push {
+    margin-left: auto;
+  }
+  
+  /* header section */
+
+.div-header-primair {
+    height: 75vh;
+}
+
+  .header-primair {
+    height: 75vh;
+    background-image: url(../images/pexels-airam-datoon-11121342\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  /* featured in */
+
+.featured li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* about me small */
+
+.round img{
+    border-radius: 50%;
+    height: 25em;
+}
+
+/* button */
+
+.button {
+    background-color: #3700b3;
+    border-radius: 20%;
+    min-width: 20em;
+	padding: 1em 1em;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* faq */
+
+details {
+    border: 2px solid #770C57;
+    border-radius: 25%;
+    background-color: #3700b3;
+    max-width: 15em;
+    margin-top: 0.5em;
+    padding: 1em;
+}
