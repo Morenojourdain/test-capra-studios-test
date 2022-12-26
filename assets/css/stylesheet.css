@@ -11,8 +11,10 @@ body {
     font-family: 'Cormorant Garmamond', sans-serif;
     font-weight: 300;
     font-size: 1em;
-    color: #ffffff;
-    background-color: #121212;
+    color: #121212;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
 }
 
 /* Headings */
@@ -25,6 +27,7 @@ h1, h2, h3 {
 
 h1 {
     font-size: 3em;
+    margin-top: 0;
 }
 
 h2 {
@@ -35,6 +38,9 @@ h2 {
 .nav {
     display: flex;
     list-style: none;
+    margin: 0;
+    padding: 0 2em;
+    letter-spacing: 2px;
   }
   
   .nav li {
@@ -45,7 +51,7 @@ h2 {
   .nav a {
     text-decoration: none;
     list-style: none;
-    color: #ffffff;
+    color: #121212;
   }
 
   .nav img {
@@ -77,6 +83,10 @@ h2 {
     list-style-type: none;
 }
 
+.featured img {
+    height: 6em;
+    width: auto;
+}
 /* about me small */
 
 .round img{
@@ -87,21 +97,28 @@ h2 {
 /* button */
 
 .button {
-    background-color: #3700b3;
+    background-color: #6369D1;
     border-radius: 20%;
     min-width: 20em;
 	padding: 1em 1em;
     text-decoration: none;
-    color: #ffffff;
+    color: #121212;
 }
 
 /* faq */
 
 details {
-    border: 2px solid #770C57;
-    border-radius: 25%;
-    background-color: #3700b3;
-    max-width: 15em;
+    background-color: #6369D1;
+    border-radius: 2.5%;
+    max-width: 30em;
     margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
     padding: 1em;
+}
+
+/* form */
+
+form {
+    background-color: #770C57;
 }
