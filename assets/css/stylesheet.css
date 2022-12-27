@@ -1,5 +1,5 @@
 /* Import fonts */
-    @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&family=Playfair+Display:wght@400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Ultra&display=swap');
 
 /* Default overwrite */
 
@@ -8,9 +8,8 @@
 }
 
 body {
-    font-family: 'Cormorant Garmamond', sans-serif;
-    font-weight: 300;
-    font-size: 1em;
+    font-family: 'PT serif', sans-serif;
+    font-size: 16px;
     color: #121212;
     background-color: #ffffff;
     margin: 0;
@@ -22,27 +21,14 @@ body {
 .container {
     min-height: 50vh;
     width: 50vw;
-    padding: 0.5em;
+    padding: 0.5rem;
     margin: 10vh auto 0;
-}
-
-.content-right {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-    max-width: 30em;
-    text-align: right;
-}
-
-.left {
-    display: flex;
-    flex-direction: column;
 }
 
 /* text styles */
 
 h1, h2, h3 {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Ultra', sans-serif;
     font-weight: 300;
     color: #770C57;
 }
@@ -61,129 +47,3 @@ p {
     margin: 1em 0;
 }
 /* nav */
-
-.nav {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0 2em;
-    letter-spacing: 2px;
-  }
-  
-  .nav li {
-    align-self: center;
-    padding: 10px 15px;
-  }
-
-  .nav a {
-    text-decoration: none;
-    list-style: none;
-    color: #770C57;
-  }
-
-  .nav img {
-    height: 4em;
-    width: auto;
-  }
-
-  .push {
-    margin-left: auto;
-  }
-  
-  /* header section */
-
-.div-header-primair {
-    height: 75vh;
-}
-
-  .header-primair {
-    height: 75vh;
-    background-image: url(../images/pexels-airam-datoon-11121342\ \(1\).jpg);
-    background-size: cover;
-    background-position: center;
-  }
-
-  /* featured in */
-
-.featured li {
-    text-decoration: none;
-    list-style-type: none;
-}
-
-.featured img {
-    height: 6em;
-    width: auto;
-}
-/* about me small */
-
-.round-large img{
-    border-radius: 50%;
-    height: 25em;
-}
-
-/* button */
-
-.button {
-    background-color: #770C57;
-    border-radius: 20%;
-    width: 6.5em;
-	padding: 1em 1em;
-    text-decoration: none;
-    color: #ffffff;
-}
-
-/* faq */
-
-details {
-    background-color: #770C57;
-    color: #ffffff;
-    border-radius: 2.5%;
-    max-width: 30em;
-    margin-top: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1em;
-}
-
-/* form */
-
-form {
-    background-color: #770C57;
-    color: #ffffff;
-    max-width: 30em;
-    border-radius: 10%;
-    justify-content: left;
-    padding: 1em;
-}
-
-.form-input {
-    border-radius: 10%;
-}
-
-/* portfolio small */
-
-.round-small img{
-    border-radius: 50%;
-    height: 15em;
-}
-
-.form-content {
-    padding: 2.5em;
-}
-
-/* footer */
-
-footer {
-    background-color: #770C57;
-    color: #ffffff;
-}
-
-footer a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.footer-img {
-    height: 2em;
-    width: auto;
-  }
