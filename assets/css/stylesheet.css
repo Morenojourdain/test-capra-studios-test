@@ -58,9 +58,9 @@ hr {
     background-color: aqua;
 }
 
-/* div {
+div {
     border: 1px solid blue;
-} */
+}
 
 /* text styles */
 
@@ -133,6 +133,11 @@ nav {
     margin: 10em;
 }
 
+/* awards */
+
+.awards-logos img {
+    margin-left: 2em;
+}
 /* section */
 
 .round-big img {
@@ -265,7 +270,7 @@ footer a {
 [class*="col-"] {
     width: 100%;
   }
-  
+  /* delete this comment */
   @media only screen and (min-width: 480px) {
     /* For tablets: */
     .col-t-1 {width: 8.33%;}
