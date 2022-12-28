@@ -29,6 +29,7 @@ body {
 
 img {
     width: 100px;
+    display: flex;
 }
 
 hr {
@@ -133,11 +134,6 @@ nav {
     margin: 10em;
 }
 
-/* awards */
-
-.awards-logos img {
-    margin-left: 2em;
-}
 /* section */
 
 .round-big img {
@@ -229,7 +225,7 @@ nav {
     border-radius: 20%;
     max-width: 35vw;
     min-height: 35vh;
-    padding: 2em;
+    padding: awa;
 
 }
 
@@ -265,71 +261,93 @@ footer a {
 
 /* media queries */
 
-/* For mobile phones: */
+/* For phone desktop: */
 
-[class*="col-"] {
-    width: 100%;
-  }
-  /* delete this comment */
-  @media only screen and (min-width: 480px) {
-    /* For tablets: */
-    .col-t-1 {width: 8.33%;}
-    .col-t-2 {width: 16.66%;}
-    .col-t-3 {width: 25%;}
-    .col-t-4 {width: 33.33%;}
-    .col-t-5 {width: 41.66%;}
-    .col-t-6 {width: 50%;}
-    .col-t-7 {width: 58.33%;}
-    .col-t-8 {width: 66.66%;}
-    .col-t-9 {width: 75%;}
-    .col-t-10 {width: 83.33%;}
-    .col-t-11 {width: 91.66%;}
-    .col-t-12 {width: 100%;}
-  }
-  @media only screen and (min-width: 770px) {
-    /* For small desktop screens: */
-    .col-sd-1 {width: 8.33%;}
-    .col-sd-2 {width: 16.66%;}
-    .col-sd-3 {width: 25%;}
-    .col-sd-4 {width: 33.33%;}
-    .col-sd-5 {width: 41.66%;}
-    .col-sd-6 {width: 50%;}
-    .col-sd-7 {width: 58.33%;}
-    .col-sd-8 {width: 66.66%;}
-    .col-sd-9 {width: 75%;}
-    .col-sd-10 {width: 83.33%;}
-    .col-sd-11 {width: 91.66%;}
-    .col-sd-12 {width: 100%;}
-  }
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
-  @media only screen and (min-width: 1025px) {
-    /* For large desktop screens: */
-    .col-ld-1 {width: 8.33%;}
-    .col-ld-2 {width: 16.66%;}
-    .col-ld-3 {width: 25%;}
-    .col-ld-4 {width: 33.33%;}
-    .col-ld-5 {width: 41.66%;}
-    .col-ld-6 {width: 50%;}
-    .col-ld-7 {width: 58.33%;}
-    .col-ld-8 {width: 66.66%;}
-    .col-ld-9 {width: 75%;}
-    .col-ld-10 {width: 83.33%;}
-    .col-ld-11 {width: 91.66%;}
-    .col-ld-12 {width: 100%;}
+    .grid-p-1 {width: 8.33%;}
+    .grid-p-2 {width: 16.66%;}
+    .grid-p-3 {width: 25%;}
+    .grid-p-4 {width: 33.33%;}
+    .grid-p-5 {width: 41.66%;}
+    .grid-p-6 {width: 50%;}
+    .grid-p-7 {width: 58.33%;}
+    .grid-p-8 {width: 66.66%;}
+    .grid-p-9 {width: 75%;}
+    .grid-p-10 {width: 83.33%;}
+    .grid-p-11 {width: 91.66%;}
+    .grid-p-12 {width: 100%;}
+}
+
+
+    /* For tablet desktop: */
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    .grid-t-1 {width: 8.33%;}
+    .grid-t-2 {width: 16.66%;}
+    .grid-t-3 {width: 25%;}
+    .grid-t-4 {width: 33.33%;}
+    .grid-t-5 {width: 41.66%;}
+    .grid-t-6 {width: 50%;}
+    .grid-t-7 {width: 58.33%;}
+    .grid-t-8 {width: 66.66%;}
+    .grid-t-9 {width: 75%;}
+    .grid-t-10 {width: 83.33%;}
+    .grid-t-11 {width: 91.66%;}
+    .grid-t-12 {width: 100%;}
   }
 
-  @media only screen and (min-width: 1200px) {
-    /* For extra large desktop screens: */
-    .col-xld-1 {width: 8.33%;}
-    .col-xld-2 {width: 16.66%;}
-    .col-xld-3 {width: 25%;}
-    .col-xld-4 {width: 33.33%;}
-    .col-xld-5 {width: 41.66%;}
-    .col-xld-6 {width: 50%;}
-    .col-xld-7 {width: 58.33%;}
-    .col-xld-8 {width: 66.66%;}
-    .col-xld-9 {width: 75%;}
-    .col-xld-10 {width: 83.33%;}
-    .col-xld-11 {width: 91.66%;}
-    .col-xld-12 {width: 100%;}
+  /* For small desktop: */
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+
+    .grid-s-1 {width: 8.33%;}
+    .grid-s-2 {width: 16.66%;}
+    .grid-s-3 {width: 25%;}
+    .grid-s-4 {width: 33.33%;}
+    .grid-s-5 {width: 41.66%;}
+    .grid-s-6 {width: 50%;}
+    .grid-s-7 {width: 58.33%;}
+    .grid-s-8 {width: 66.66%;}
+    .grid-s-9 {width: 75%;}
+    .grid-s-10 {width: 83.33%;}
+    .grid-s-11 {width: 91.66%;}
+    .grid-s-12 {width: 100%;}
+  }
+
+  /* For medium desktop: */
+
+  @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+    .grid-m-1 {width: 8.33%;}
+    .grid-m-2 {width: 16.66%;}
+    .grid-m-3 {width: 25%;}
+    .grid-m-4 {width: 33.33%;}
+    .grid-m-5 {width: 41.66%;}
+    .grid-m-6 {width: 50%;}
+    .grid-m-7 {width: 58.33%;}
+    .grid-m-8 {width: 66.66%;}
+    .grid-m-9 {width: 75%;}
+    .grid-m-10 {width: 83.33%;}
+    .grid-m-11 {width: 91.66%;}
+    .grid-m-12 {width: 100%;}
+  }
+
+  /* For large desktop: */
+
+  @media only screen and (min-width: 12001x) {
+
+    .grid-l-1 {width: 8.33%;}
+    .grid-l-2 {width: 16.66%;}
+    .grid-l-3 {width: 25%;}
+    .grid-l-4 {width: 33.33%;}
+    .grid-l-5 {width: 41.66%;}
+    .grid-l-6 {width: 50%;}
+    .grid-l-7 {width: 58.33%;}
+    .grid-l-8 {width: 66.66%;}
+    .grid-l-9 {width: 75%;}
+    .grid-l-10 {width: 83.33%;}
+    .grid-l-11 {width: 91.66%;}
+    .grid-l-12 {width: 100%;}
   }
