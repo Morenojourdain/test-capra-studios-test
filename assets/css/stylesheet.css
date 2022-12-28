@@ -22,7 +22,7 @@ body {
     font-family: 'PT serif', sans-serif;
     font-size: 16px;
     color: #121212;
-    background-color: #ff2db2;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
@@ -31,7 +31,11 @@ img {
     width: 100px;
 }
 
-/* container */
+hr {
+    border: 1px solid #FFFFFF;
+}
+
+/* containers */
 
 .main-container {
     min-height: 50vh;
@@ -40,9 +44,23 @@ img {
     margin: 10vh auto 0;
 }
 
-div {
-    border: 1px solid blue;
+.section-container {
+    width: 70vw;
+    margin: 0 auto;
 }
+
+.section-container-gray {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+.section-gray {
+    background-color: aqua;
+}
+
+/* div {
+    border: 1px solid blue;
+} */
 
 /* text styles */
 
@@ -67,8 +85,9 @@ h1 {
     min-height: 2.5em;
     text-align: center;
     padding: 1em;
-    border-radius: 15%;
+    border-radius: 1%;
     border: none;
+    text-transform: capitalize;
 }
 
 /* nav */
@@ -84,7 +103,6 @@ nav {
 
 .nav-menu a {
     text-decoration: none;
-    list-style: none;
     color: #FFFDFA;
     letter-spacing: 2px;
     text-transform: capitalize;
@@ -93,11 +111,11 @@ nav {
 
 }
 
-.nav-push .nav-menu {
+.nav-content-right .nav-menu {
     text-align: right;
 }
 
-  .nav-logo {
+.nav-logo {
     height: 4em;
     width: auto;
 }
@@ -115,11 +133,84 @@ nav {
     margin: 10em;
 }
 
+/* section */
 
+.round-big img {
+    border-radius: 50%;
+    max-height: 20em;
+    width: auto;
+}
 
+.content-right div {
+    text-align: right;
+}
 
+.content-left div {
+    text-align: left;
+}
 
+.content-center {
+    text-align: center;
+}
 
+.content-center div {
+    text-align: center;
+}
+
+.line {
+    background-color: #F40009;
+    min-height: 0.1em;
+    min-width: 5em;
+}
+
+/* form */
+
+.form-right {
+    background-color: #F40009;
+    color: #FFFFFF;
+    padding: 50px;
+    max-width: 35vw;
+}
+
+.form-right h2 {
+    color: #FFFFFF;
+}
+
+.form-input {
+    margin: 0.5em 0;
+}
+
+.form-input input {
+    min-width: 25em;
+}
+
+.form-input textarea {
+    min-width: 25em;
+}
+
+.form-input * {
+    display: block;
+    padding: 0.1em 0;
+}
+
+.round-big iframe {
+    border-radius: 20%;
+    max-height: 20em;
+    width: auto;
+}
+
+.form-section-links a {
+    text-decoration: none;
+    color: #121212;
+}
+/* portfolio */
+
+.round-small img {
+    border-radius: 50%;
+    max-height: 15em;
+    width: auto;
+    margin: 0 1em;
+}
 
 
 
