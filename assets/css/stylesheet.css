@@ -5,26 +5,16 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  [class*="col-"] {
-    float: left;
-    padding: 15px;
-  }
 
 body {
     font-family: 'PT serif', sans-serif;
     font-size: 16px;
+    font-weight: 300;
     color: #121212;
     background-color: #FFFFFF;
-    margin: 0;
-    padding: 0;
 }
 
 img {
@@ -41,8 +31,6 @@ hr {
 .main-container {
     min-height: 50vh;
     width: 50vw;
-    padding: 0.5rem;
-    margin: 10vh auto 0;
 }
 
 .section-container {
@@ -131,7 +119,6 @@ nav {
 
 .hero-content {
     text-align: center;
-    margin: 10em;
 }
 
 /* section */
@@ -173,7 +160,6 @@ nav {
 .form-right {
     background-color: #F40009;
     color: #FFFFFF;
-    padding: 50px;
     max-width: 35vw;
 }
 
@@ -260,6 +246,12 @@ footer a {
 }
 
 /* media queries */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /* For phone desktop: */
 
